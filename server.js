@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}))
 
+// test
 // Log all requests
 app.use((req, res, next) => {
   console.log("Request query parameters:");
